@@ -4,5 +4,13 @@
     background-color: #E2FBEF;
 }
 header {
+    display: flex;
     background: radial-gradient(#2E54CB, #1D357F);
+}
+
+hd-search{
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    float: right;
 }
