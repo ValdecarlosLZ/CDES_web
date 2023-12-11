@@ -16,7 +16,18 @@ div input[type="button"]{
 }
 header {
     display: flex;
-    background: radial-gradient(#2E54CB, #1D357F);
+    background: radial-gradient(#2E54CB, #1D357F) !important;
+    z-index: 0;
+    padding: 2%;
+}
+
+div.hd-logo{
+    margin: auto;
+    margin-left: 5%;
+    background-color: transparent !important;
+}
+#img-logo{
+    background: none;
 }
 
 .hd-search{
@@ -24,20 +35,31 @@ header {
     margin: auto;
     flex-direction: row;
     float: right;
+    margin-right: 10%;
+    z-index: 1;
+    background: none;
 }
 button#hd-bt-search{
+    position: relative;
     border-radius: 10px !important;
     background: #D9D9D980 !important;
     border: #00000080;
     margin-left: 3%;
-    padding: 2% 4%;
+    padding: 2% 3%;
 }
 button#hd-bt-search img{
     background: none;
 }
+#hd-text-search{
+    width: 330px;
+    height: 35px;
+    align-self: center;
+}
 
 #bd-slider{
     position: relative;
+    margin-top: 5%;
+    margin-left: 5%;
     width: 500px;
     height: 300px;
     overflow: hidden;
