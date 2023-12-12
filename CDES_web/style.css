@@ -111,9 +111,10 @@ nav>span>a {
 nav>span>a:hover {
     color: #000000;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-    padding: 1.5% 7%;
+    padding: 0.5% 2.4%;
     width: 100%;
     white-space: nowrap;
+    z-index: 1000;
 }
 
 .bd-allcontent {
@@ -134,7 +135,7 @@ nav>span>a:hover {
     margin-top: 4%;
     margin-left: 7%;
     width: 700px;
-    height: 500px;
+    height: 435px;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
@@ -174,11 +175,15 @@ nav>span>a:hover {
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
-    width: 11%;
+    width: 13vw;
     max-height: 100%;
-    height: 280px;
+    height: 32vh;
     border-radius: 10px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    background: aliceblue;
+}
+.bd-contrast:hover{
+    box-shadow: 0 0 50px #18695a;
 }
 
 .bd-contrast>img {
@@ -192,6 +197,7 @@ nav>span>a:hover {
 
 .bd-contrast>h3 {
     color: #208573;
+    background: none;
     text-align: center;
     font-size: 1.3vw;
     padding-bottom: 7%;
@@ -260,6 +266,9 @@ nav>span>a:hover {
     box-sizing: 450px !important;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     border: 0.2px solid #00000038;
+}
+#bd-news-content>a:hover{
+    box-shadow: 0 0 15px #18695ac0;
 }
 
 #bd-news-title {
