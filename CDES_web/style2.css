@@ -14,6 +14,12 @@
     border-radius: 10px;
     z-index: 0;
 }
+#bd-equipe-alfa{
+    display: flex;
+    padding: 5%;
+    flex-direction: row !important;
+    width: 80%;
+}
 
 .bd-blocks {
     display: flex;
@@ -21,6 +27,7 @@
     background: none;
     z-index: 1;
 }
+
 
 .bd-contrast>img {
     border-radius: 10px 10px 0 0;
