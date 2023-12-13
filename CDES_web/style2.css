@@ -19,6 +19,7 @@
     padding: 5%;
     flex-direction: row !important;
     width: 80%;
+    margin-bottom: -2%;
 }
 
 .bd-blocks {
@@ -55,7 +56,8 @@
     align-self: center;
     margin-top: 5% !important;
     margin-bottom: -7% !important;
-    margin-left: 32.5% !important;
+    margin-left: 35% !important;
+    padding: 1% 4% !important;
     z-index: 3;
 }
 #bd-news-title:hover{
@@ -69,3 +71,4 @@
     background: none;
     margin-bottom: 2%;
 }
+

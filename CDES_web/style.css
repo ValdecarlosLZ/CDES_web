@@ -182,7 +182,8 @@ nav>span>a:hover {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
     background: aliceblue;
 }
-.bd-contrast:hover{
+
+.bd-contrast:hover {
     box-shadow: 0 0 50px #18695a;
 }
 
@@ -267,7 +268,8 @@ nav>span>a:hover {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     border: 0.2px solid #00000038;
 }
-#bd-news-content>a:hover{
+
+#bd-news-content>a:hover {
     box-shadow: 0 0 15px #18695ac0;
 }
 
@@ -287,4 +289,49 @@ nav>span>a:hover {
     font-size: 1.5vw;
     color: aliceblue;
     text-align: center;
+}
+
+footer {
+    display: flex;
+    background: radial-gradient(#2E54CB, #1D357F) !important;
+    z-index: -1;
+    padding: 2%;
+}
+footer .foot-details{
+    background: none;
+    width: 70%;
+    margin-right: 10%;
+}
+
+.foot-contacts {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    background: none;
+    width: 20%;
+}
+
+.foot-contacts div{
+    display: flex;
+    flex-direction: row;
+    background: none;
+    width: 100%;
+}
+
+.foot-contacts div>a {
+    text-decoration: none;
+    color: aliceblue;
+    background: none;
+    padding: -3%;
+    padding-top: 1.2%;
+    text-align: center;
+}
+
+
+.foot-contacts div>img {
+    margin-right: 2%;
+    border-radius: 10px;
+    padding: 1%;
+    background: rgba(240, 248, 255, 0.5);
+    align-self: start;
 }
