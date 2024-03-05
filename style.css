@@ -271,14 +271,16 @@ nav > span > a:hover {
 }
 
 #bd-news-title {
-  margin-left: 16%;
+  margin-left: 14%;
   margin-bottom: -3%;
   background: #0297a0;
   border-radius: 10px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
   padding: 2% 6%;
-  width: 400px;
+  width: 60%;
   z-index: 1;
+  position: relative;
+  align-self: start;
 }
 
 #bd-news-title > h2 {
