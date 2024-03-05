@@ -353,6 +353,7 @@ footer .foot-details {
     & img{
         margin: 5% 5% 6% 5%;
         border-radius: 10px;
+        align-self: center;
     }
   }
 }
