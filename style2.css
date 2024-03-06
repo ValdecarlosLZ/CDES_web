@@ -55,9 +55,10 @@
     position: relative;
     align-self: center;
     margin-top: 5% !important;
-    margin-bottom: -7% !important;
-    margin-left: 35% !important;
+    margin-bottom: -7% !important;   
     padding: 1% 4% !important;
+    width: 80%;
+    left: 2%;
     z-index: 3;
 }
 #bd-news-title:hover{
@@ -71,4 +72,6 @@
     background: none;
     margin-bottom: 2%;
 }
-
+.ndp,.nmf{
+    margin-top: -8% !important;
+}
